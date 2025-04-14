@@ -11,6 +11,6 @@ python -m unittest test.py
 ----------
 
 ### arquivos uteis
-- texto.txt (bota o texto a ser censurado)
-- lista.txt (lista de palavras para censurar)
-- censurado.txt (texto censurado)
+- **texto.txt** (bota o texto a ser censurado)
+- **lista.txt** (lista de palavras para censurar)
+- **censurado.txt** (texto censurado)
