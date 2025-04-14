@@ -1,6 +1,22 @@
-# Censurador
+# censurador
+censura palavras do texto
 
-A text censoring application that filters out bad words from text.
+exemplo:
+```
+from bad_words_filter import filter_text
+txt = "texto ruim aqui"
+palavras = ["ruim"]
+print(filter_text(txt, palavras)) #texto *** aqui
+```
+
+## Como usar
+```python
+from bad_words_filter import filter_text
+
+text = "This text contains bad words"
+bad_words = ["bad"]
+print(filter_text(text, bad_words))  # This text contains *** words
+```
 
 ## Description
 
