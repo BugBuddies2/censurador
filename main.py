@@ -1,14 +1,12 @@
 from filter import filtrar_texto
 
-
-with open(text_file, "r") as file:
+# lê o arquivo de texto
+with open("texto.txt", "r") as file:
     texto = file.read()
 
-
-
-#teste rapido
-
-palavras_ruins = ["bobão", "fanfarrão", "bobinho", "panaca", "banana", "tanso", "lesado"]
+# lê a lista de palavras ruins
+with open("lista.txt", "r") as file:
+    palavras_ruins = [linha.strip() for linha in file]
 
 print("normal:")
 print(filtrar_texto(texto, palavras_ruins))
