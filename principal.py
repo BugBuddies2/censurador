@@ -1,4 +1,4 @@
-from filter import filtrar_texto
+from filtro_palavras import filtrar_texto
 
 #teste rapido
 texto = "esse bobão e fanfarrão fica se achando o bobinho da turma"

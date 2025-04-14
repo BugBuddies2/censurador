@@ -1,12 +1,21 @@
 # censurador
-censura palavras do texto
+programa que censura palavras do texto
 
 exemplo:
+```python
+from filter import filtrar_texto
+
+texto = "esse bobão fica zuando"
+palavras_ruins = ["bobão"]
+print(filtrar_texto(texto, palavras_ruins))  #esse *** fica zuando
+
+#com substituição personalizada
+print(filtrar_texto(texto, palavras_ruins, substituir="[CENSURADO]"))  #esse [CENSURADO] fica zuando
 ```
-from bad_words_filter import filter_text
-txt = "texto ruim aqui"
-palavras = ["ruim"]
-print(filter_text(txt, palavras)) #texto *** aqui
+
+pra rodar:
+```
+python main.py
 ```
 
 ## Como usar
